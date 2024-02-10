@@ -23,6 +23,8 @@ def home_view(request):
     return HttpResponse(html)
 
 
+
+
 def about_view(request):
     html = f"""
     <html>
